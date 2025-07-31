@@ -1,0 +1,7 @@
+C:\Users\mariy\source\repos\begin1\begin1\bin\Debug\begin1.exe.config
+C:\Users\mariy\source\repos\begin1\begin1\bin\Debug\begin1.exe
+C:\Users\mariy\source\repos\begin1\begin1\bin\Debug\begin1.pdb
+C:\Users\mariy\source\repos\begin1\begin1\obj\Debug\begin1.csproj.AssemblyReference.cache
+C:\Users\mariy\source\repos\begin1\begin1\obj\Debug\begin1.csproj.CoreCompileInputs.cache
+C:\Users\mariy\source\repos\begin1\begin1\obj\Debug\begin1.exe
+C:\Users\mariy\source\repos\begin1\begin1\obj\Debug\begin1.pdb
