@@ -5,3 +5,10 @@ C:\Users\mariy\source\repos\begin1\begin1\obj\Debug\begin1.csproj.AssemblyRefere
 C:\Users\mariy\source\repos\begin1\begin1\obj\Debug\begin1.csproj.CoreCompileInputs.cache
 C:\Users\mariy\source\repos\begin1\begin1\obj\Debug\begin1.exe
 C:\Users\mariy\source\repos\begin1\begin1\obj\Debug\begin1.pdb
+C:\MyProjects\learningC-\begin1\bin\Debug\begin1.exe.config
+C:\MyProjects\learningC-\begin1\bin\Debug\begin1.exe
+C:\MyProjects\learningC-\begin1\bin\Debug\begin1.pdb
+C:\MyProjects\learningC-\begin1\obj\Debug\begin1.csproj.AssemblyReference.cache
+C:\MyProjects\learningC-\begin1\obj\Debug\begin1.csproj.CoreCompileInputs.cache
+C:\MyProjects\learningC-\begin1\obj\Debug\begin1.exe
+C:\MyProjects\learningC-\begin1\obj\Debug\begin1.pdb
