@@ -178,7 +178,151 @@ namespace begin1
 
             //* В целом всё понятно. Делаем масив, через цикл вносим в него рандомные числа [0,21) и выводи значение каждого индекса масива
 
+            //int[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+            //foreach (int item in numbers)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //*+-------------------------------------------------------+
+            //*|                          ФУНКЦИИ                      |
+            //*+-------------------------------------------------------+
+
+            //    Console.WriteLine("Привет!");
+            //    Console.WriteLine("Ты тут?");
+            //    WriteError();
+            //    Console.WriteLine("Странно...");
+            //    WriteError();
+            //static void WriteError()
+            //{
+            //    ConsoleColor defaultColor = Console.ForegroundColor;
+            //    Console.ForegroundColor = ConsoleColor.Red;
+            //    Console.WriteLine("Нет соединения с интернетом!!!");
+            //    Console.ForegroundColor = defaultColor;
+            //}
+            //* Вынеси функцию WriteError из Main
+
+            //*+-------------------------------------------------------+
+            //*|                     Коллекция list                    |
+            //*+-------------------------------------------------------+
+
+            //List<int> numbers = new List<int>();
+
+            //numbers.Add(12);
+            //numbers.Add(15);
+            //numbers.Add(13);
+            //numbers.Add(14);
+            //numbers.Add(11);
+
+            //numbers.AddRange(new int[] { 3, 4, 5, 6});
+
+            //for (int i = 0; i < numbers.Count; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+            //Console.WriteLine($"Число 11 находится на позиции {numbers.IndexOf(11)}");
+
+
+            //numbers.RemoveAt(0);
+            //numbers.Remove(15);
+            //Console.WriteLine("\n");
+            //for (int i = 0; i < numbers.Count; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+            //Console.WriteLine($"Число 11 находится на позиции {numbers.IndexOf(11)}");
+
+            //numbers.Clear();
+
+            //for (int i = 0; i < numbers.Count; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+            //numbers.Add(1);
+            //numbers.Add(3);
+
+            //numbers.Insert(1, 2);
+
+            //for (int i = 0; i < numbers.Count; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+            //*+-------------------------------------------------------+
+            //*|                     Коллекция Queue                   | Буквально очередь, работает как в жизни.(FIFO) Первый зашел => первый вышел
+            //*+-------------------------------------------------------+
+
+            //Queue<string> patients = new Queue<string>();
+
+            //patients.Enqueue("Василий");
+            //patients.Enqueue("Алексей");
+            //patients.Enqueue("Роман");
+            //patients.Enqueue("Владимир");
+
+            //Console.WriteLine($"Сейчас на прием идет: {patients.Dequeue()}");
+            //Console.WriteLine($"В очереди теперь:");
+            //foreach (var patient in patients)
+            //{
+            //    Console.WriteLine(patient);
+            //}
+
+            //Console.WriteLine($"\nСледующий в очереди: {patients.Peek()}");
+            // *Всё банально просто.Добавление новеньких в конец, а удаление с начала
+
+            //*+-------------------------------------------------------+
+            //*|                     Stack                             | LIFO - последний зашел первый вышел. Как-будто стопка книг
+            //*+-------------------------------------------------------+
+
+            //Stack<int> numbers = new Stack<int>();
+
+            //numbers.Push(1);
+            //numbers.Push(2);
+            //numbers.Push(3);
+            //numbers.Push(4);
+            //numbers.Push(5);
+
+            ////Console.WriteLine(numbers.Peek()); 
+
+            //Console.WriteLine(string.Join(" ", numbers));
+
+
+            //while (numbers.Count > 0)
+            //{
+            //    Console.WriteLine($"Следующее число в стеке = {numbers.Pop()}");
+            //}
+
+            //Console.WriteLine(string.Join(" ", numbers));
+
+
+            //*+-------------------------------------------------------+
+            //*|                     Dictionary                        | Словарик
+            //*+-------------------------------------------------------+
+
+            //Dictionary<string, string> countriesCapitals = new Dictionary<string, string>();
+            //countriesCapitals.Add("Австралия", "Канберра");
+            //countriesCapitals.Add("Турция", "Анкара");
+            //countriesCapitals.Add("Швейцария", "Бёрн");
+            //foreach (var country in countriesCapitals)
+            //{
+            //    Console.WriteLine($"Страна - {country.Key}, столица = {country.Value}");
+            //}
+
+            //foreach (var key in countriesCapitals.Keys)
+            //{
+            //    Console.WriteLine($"Страна - {key}");
+            //}
+
+
+            //if (countriesCapitals.ContainsKey(1))
+            //{
+            //    Console.WriteLine(countriesCapitals[1]);
+            //}
         }
+
     }
 }
 
