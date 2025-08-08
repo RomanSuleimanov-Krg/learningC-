@@ -321,8 +321,45 @@ namespace begin1
             //{
             //    Console.WriteLine(countriesCapitals[1]);
             //}
+
+            //*+-------------------------------------------------------+
+            //*|                     Class                             | 
+            //*+-------------------------------------------------------+
+
+            Car ferarri = new Car();
+            
+            ferarri.Name = "F40";
+            ferarri.HorsePower = 471;
+            ferarri.Age = 30;
+            ferarri.MaxSpeed = 317.0f;
+
+            Car mazerati;
+            
+            mazerati = ferarri;
+
+            mazerati.HorsePower = 1000;
+
+            Console.WriteLine(ferarri.HorsePower);
+            ferarri.ShowTechnicalPasport();
         }
 
+    }
+    //*+-------------------------------------------------------+
+    //*|                     Class                             | 
+    //*+-------------------------------------------------------+
+
+    class Car
+    {
+        public string Name;
+        public int HorsePower;
+        public int Age;
+        public float MaxSpeed;
+
+        public void ShowTechnicalPasport()
+        {
+            Console.WriteLine($"Название авто: {Name}\nКоличество лошадей: {HorsePower}" +
+                $"\nВозраст: {Age}\nМакс скорость: {MaxSpeed} км/ч");
+        }
     }
 }
 
