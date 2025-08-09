@@ -326,21 +326,14 @@ namespace begin1
             //*|                     Class                             | 
             //*+-------------------------------------------------------+
 
-            Car ferarri = new Car();
-            
-            ferarri.Name = "F40";
-            ferarri.HorsePower = 471;
-            ferarri.Age = 30;
-            ferarri.MaxSpeed = 317.0f;
+            //Car ferarri = new Car("F40", -250, 30, 317.0f);
+            //Console.WriteLine(ferarri.HorsePower);
+            //ferarri.ShowTechnicalPasport();
 
-            Car mazerati;
-            
-            mazerati = ferarri;
+            //Car userCar = new Car();
+            //Console.WriteLine();
+            //userCar.ShowTechnicalPasport();
 
-            mazerati.HorsePower = 1000;
-
-            Console.WriteLine(ferarri.HorsePower);
-            ferarri.ShowTechnicalPasport();
         }
 
     }
@@ -348,18 +341,42 @@ namespace begin1
     //*|                     Class                             | 
     //*+-------------------------------------------------------+
 
-    class Car
-    {
-        public string Name;
-        public int HorsePower;
-        public int Age;
-        public float MaxSpeed;
+    //class Car
+    //{
+    //    public string Name;
+    //    public int HorsePower;
+    //    public int Age;
+    //    public float MaxSpeed;
 
-        public void ShowTechnicalPasport()
-        {
-            Console.WriteLine($"Название авто: {Name}\nКоличество лошадей: {HorsePower}" +
-                $"\nВозраст: {Age}\nМакс скорость: {MaxSpeed} км/ч");
-        }
-    }
+    //    public Car(string name, int horsePower, int age, float maxSpeed)
+    //    {
+    //        if (horsePower < 0)
+    //        {
+    //            HorsePower = 1;
+    //        }
+    //        else
+    //        {
+    //            HorsePower = horsePower;
+    //        }
+            
+    //        Name = name;
+    //        Age = age;
+    //        MaxSpeed = maxSpeed;
+    //    }
+
+    //    public Car()
+    //    {
+    //        Name = "Ford";
+    //        HorsePower = 471;
+    //        Age = 25;
+    //        MaxSpeed = 280;
+    //    }
+
+    //    public void ShowTechnicalPasport()
+    //    {
+    //        Console.WriteLine($"Название авто: {Name}\nКоличество лошадей: {HorsePower}" +
+    //            $"\nВозраст: {Age}\nМакс скорость: {MaxSpeed} км/ч");
+    //    }
+    //}
 }
 
