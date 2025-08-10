@@ -1,0 +1,7 @@
+C:\MyProjects\learningC-\practice2C#\practice2C#\obj\Debug\practice2C#.csproj.AssemblyReference.cache
+C:\MyProjects\learningC-\practice2C#\practice2C#\obj\Debug\practice2C#.csproj.CoreCompileInputs.cache
+C:\MyProjects\learningC-\practice2C#\practice2C#\bin\Debug\practice2C#.exe.config
+C:\MyProjects\learningC-\practice2C#\practice2C#\bin\Debug\practice2C#.exe
+C:\MyProjects\learningC-\practice2C#\practice2C#\bin\Debug\practice2C#.pdb
+C:\MyProjects\learningC-\practice2C#\practice2C#\obj\Debug\practice2C#.exe
+C:\MyProjects\learningC-\practice2C#\practice2C#\obj\Debug\practice2C#.pdb
