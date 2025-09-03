@@ -1,0 +1,7 @@
+C:\MyProjects\learningC-\practice9C#\practice9C#\bin\Debug\practice9C#.exe.config
+C:\MyProjects\learningC-\practice9C#\practice9C#\bin\Debug\practice9C#.exe
+C:\MyProjects\learningC-\practice9C#\practice9C#\bin\Debug\practice9C#.pdb
+C:\MyProjects\learningC-\practice9C#\practice9C#\obj\Debug\practice9C#.csproj.AssemblyReference.cache
+C:\MyProjects\learningC-\practice9C#\practice9C#\obj\Debug\practice9C#.csproj.CoreCompileInputs.cache
+C:\MyProjects\learningC-\practice9C#\practice9C#\obj\Debug\practice9C#.exe
+C:\MyProjects\learningC-\practice9C#\practice9C#\obj\Debug\practice9C#.pdb
