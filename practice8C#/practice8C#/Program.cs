@@ -10,11 +10,13 @@ namespace practice8C_
     {
         static void Main(string[] args)
         {
-            IMovable car = new Car();
-            IMovable human = new Human();
+           Car car = new Car();
+            car.Burn();
+            car.Move();
+            car.ShowMoveSpeed();
         }
     }
-
+    
     interface IMovable
     {
         void Move();
@@ -25,41 +27,27 @@ namespace practice8C_
     {
         void Burn();
     }
-    
-    class Vehicle
+
+    class Car : Vehicle, IMovable, IBurnable
     {
-
-    }
-
-    class Car : Vehicle, IMovable , IBurnable
-    {
-        public void Move()
-        {
-
-        }
-
         public void Burn()
         {
-
+            Console.WriteLine("Горюююю");
         }
 
-        public void ShowMoveSpeed()
-        {
-
-        }
-    }
-
-    class Human : IMovable
-    {
         public void Move()
         {
-
+            Console.WriteLine("Еду");
         }
 
         public void ShowMoveSpeed()
         {
-
+            Console.WriteLine("Мчим под 200");
         }
     }
-    //Интерфейсы в C#
+
+    public class Vehicle 
+    {
+        
+    }
 }

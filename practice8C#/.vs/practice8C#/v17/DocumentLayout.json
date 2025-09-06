@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyProjects\\learningC-\\practice8C#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F52AEA-4D9F-478D-8CF5-771230B9AFC7}|practice8C#\\practice8C#.csproj|c:\\myprojects\\learningc-\\practice8c#\\practice8c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F52AEA-4D9F-478D-8CF5-771230B9AFC7}|practice8C#\\practice8C#.csproj|solutionrelative:practice8c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyProjects\\learningC-\\practice8C#\\practice8C#\\Program.cs",
+              "RelativeDocumentMoniker": "practice8C#\\Program.cs",
+              "ToolTip": "C:\\MyProjects\\learningC-\\practice8C#\\practice8C#\\Program.cs",
+              "RelativeToolTip": "practice8C#\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T04:42:30.79Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
