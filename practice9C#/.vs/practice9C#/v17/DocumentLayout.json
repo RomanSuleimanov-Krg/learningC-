@@ -24,7 +24,11 @@
               "RelativeDocumentMoniker": "practice9C#\\Program.cs",
               "ToolTip": "C:\\MyProjects\\learningC-\\practice9C#\\practice9C#\\Program.cs",
               "RelativeToolTip": "practice9C#\\Program.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAACcAAAAAAAAAAAAmwBQAAAAiAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwCsAAAAeAAAAAAAAAA==",
+>>>>>>> 7daf678dc9f87579271465e25b213f07dc47a6f6
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T13:13:38.018Z",
               "EditorCaption": ""

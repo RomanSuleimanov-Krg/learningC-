@@ -20,21 +20,37 @@ namespace practice9C_
                 player.Fire(item);
                 Console.WriteLine();
             }
+
+            player.CheckInfo(new Box());
         }
     }
 
-    abstract class Weapon
+    interface IHasInfo
     {
+        void ShowInfo();
+    }
+
+    interface IWeapon
+    {
+        int Damage { get; }
+        void Fire();
+    }
+    
+    abstract class Weapon : IHasInfo, IWeapon
+    {
+        public abstract int Damage { get; }
         public abstract void Fire();
 
         public void ShowInfo()
         {
-            Console.WriteLine(GetType().Name);
+            Console.WriteLine($"{GetType().Name} Damge: {Damage}");
         }
     }
 
     class Gun : Weapon
     {
+        public override int Damage { get { return 5; } }
+
         public override void Fire()
         {
             Console.WriteLine("Пыщ!");
@@ -43,6 +59,8 @@ namespace practice9C_
 
     class LaserGun : Weapon
     {
+        public override int Damage { get { return 8; } }
+
         public override void Fire()
         {
             Console.WriteLine("Пиу!");
@@ -51,6 +69,8 @@ namespace practice9C_
 
     class Bow : Weapon
     {
+        public override int Damage { get { return 2; } }
+
         public override void Fire()
         {
             Console.WriteLine("Пау!");
@@ -60,15 +80,23 @@ namespace practice9C_
     class Player
     {
         
-        public void CheckInfo(Weapon weapon)
+        public void CheckInfo(IHasInfo hasInfo)
         {
-            weapon.ShowInfo();
+            hasInfo.ShowInfo();
         }
 
 
-        public void Fire(Weapon weapon)
+        public void Fire(IWeapon weapon)
         {
             weapon.Fire();
+        }
+    }
+
+    class Box : IHasInfo
+    {
+        public void ShowInfo()
+        {
+            Console.WriteLine("Я коробочка :)");
         }
     }
 }
